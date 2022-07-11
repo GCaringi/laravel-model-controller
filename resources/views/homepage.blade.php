@@ -7,6 +7,7 @@
     <title>Homepage Laravel Movies</title>
 </head>
 <body>
+    @dump($movies)
     
 </body>
 </html>

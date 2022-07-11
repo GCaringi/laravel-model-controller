@@ -8,6 +8,9 @@ use App\Movie;
 class MovieController extends Controller
 {
     public function index(){
-        dd("Prova controller");
+        
+        $movies = Movie::all();
+
+        return view('homepage', compact('movies'));
     }
 }
